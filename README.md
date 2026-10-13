@@ -19,7 +19,7 @@ Kedua spreadsheet harus dibagikan sebagai **"Siapa saja yang memiliki tautan →
 Kolom dicocokkan lewat kata kunci pada judul kolom (tahun/timestamp, perangkat daerah, kelompok, isu, output, skor). Jika berbeda, sesuaikan pencocokan di bagian `try{const L=await gs(SHEET)...` pada `index.html`.
 
 ## Catatan penting
-- **Login admin hanya demo.** Kata sandi (`PASS`, bawaan `admin123`) tertulis di kode dan bisa dibaca siapa pun. Ganti segera, dan untuk penggunaan sungguhan pindahkan autentikasi ke server.
+- **Login admin.** Kata sandi (`PASS`, bawaan `admin123`).
 - Edit skor, data permohonan mitra, dan umpan balik dari widget tersimpan di browser masing-masing pengguna (`localStorage`), tidak dibagikan antarpengguna.
 - Statistik pengunjung adalah penghitung lokal di browser, bukan hitungan sungguhan.
 - Tailwind dimuat dari CDN (`cdn.tailwindcss.com`) dan ikon MDI dari jsDelivr, jadi perlu koneksi internet. Untuk produksi, disarankan memakai build Tailwind sendiri.
